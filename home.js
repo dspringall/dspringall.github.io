@@ -29,13 +29,26 @@
 
 $(window).scroll(function () {
     if ($(this).scrollTop() > 150) { //use `this`, not `document`
-        $('.copy').css({
+        $('.copyright').css({
             'display': 'none'
         });
     } else {
-        $('.copy').css({
+        $('.copyright').css({
             'display': 'inline'
         });
 
+    }
+});
+
+
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 350) { //use `this`, not `document`
+        $('.top').css({
+            'display': 'inline'
+        });
+    } else {
+        $('.top').css({
+            'display': 'none'
+        });
     }
 });
