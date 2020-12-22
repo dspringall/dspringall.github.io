@@ -19,6 +19,11 @@ html {
     color: rgb(83, 83, 83);
 }
 
+ul li {
+    margin: 5% auto;
+    font-size: 1.05em;
+}
+
 /* @media (400px) {
     header: {
         height: none;

@@ -20,5 +20,22 @@
 
 // });
 
+// const copy = document.querySelector('.copy');
+
+// window.addEventListener('scroll', function () {
+//     alert('scrolled')
+// });
 
 
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 150) { //use `this`, not `document`
+        $('.copy').css({
+            'display': 'none'
+        });
+    } else {
+        $('.copy').css({
+            'display': 'inline'
+        });
+
+    }
+});
