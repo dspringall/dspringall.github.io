@@ -56,12 +56,9 @@ ul li {
     font-size: 1.05em;
 }
 
-#footer {
-    padding: 2% 5%;
-    text-align: center;
-    align-items: center;
+/* #footer {
     background-color: #e6f2e9;
-}
+} */
 
 #me {
     max-width: 100%;
@@ -259,17 +256,37 @@ ul li {
 @media screen and (max-width: 650px) {
     .jumbotron h1 {
         font-size: 4em;
-    }}
-    
-    @media screen and (max-width: 480px) {
-        .jumbotron h1 {
-            font-size: 3em;
-    }}
-
-@media screen and (max-width: 650px) {
+    }
     .connect {
         font-size: 1em;
-        }}
+    }
+}
+    
+@media screen and (max-width: 480px) {
+    header {
+        background-position: right;
+        padding-top: 25%;
+    }
+
+    h5 {
+        font-size: 1.25em;
+        padding-top: 5%
+    }
+    
+    .jumbotron h1 {
+            font-size: 3em;
+            letter-spacing: 2mm;
+    }
+
+    .copyright {
+        font-size: 0.5em;
+    }
+
+    .lead {
+        font-size: 1em;
+    }
+
+}
 
 
 

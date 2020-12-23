@@ -28,7 +28,7 @@
 
 
 $(window).scroll(function () {
-    if ($(this).scrollTop() > 150) { //use `this`, not `document`
+    if ($(this).scrollTop() > 150) {
         $('.copyright').css({
             'display': 'none'
         });
@@ -42,7 +42,7 @@ $(window).scroll(function () {
 
 
 $(window).scroll(function () {
-    if ($(this).scrollTop() > 350) { //use `this`, not `document`
+    if ($(this).scrollTop() > 350) {
         $('.top').css({
             'display': 'inline'
         });
