@@ -315,9 +315,17 @@ ul li {
     .copyright {
         font-size: 0.5em;
     }
+    .lang {
+        margin: 0;
+    }
 
     .lead {
         font-size: 1em;
+    }
+
+    .icon {
+        font-size: 3em;
+        margin: 5px;
     }
 
 }
