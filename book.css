@@ -1,3 +1,7 @@
+a {
+    color: white;
+}
+
 html, body { 
     margin:0;
     padding:0;
@@ -106,7 +110,6 @@ p {
     padding: 3%;
     font-size: 0.9em;
     letter-spacing: 0.5mm;
-    border: 1px solid gray;
     margin-bottom: 5%;
 
 }
@@ -199,6 +202,10 @@ p {
     }
     body {
         letter-spacing: 0mm;
+       background-position: center bottom; 
+       background-size: auto;
+
+
     }
     .line {
         border-left: none;
@@ -226,15 +233,15 @@ p {
     font-size: 0.75em;
     }
     .quote {
-        width: 80%;
+        width: 90%;
         /* font-weight: bold; */
         font-style: italic;
         padding: 3%;
-        font-size: 0.9em;
+        font-size: 0.8em;
         letter-spacing: 0.5mm;
-        border: 1px solid gray;
-        margin-bottom: 5%;
-    
+        margin-bottom: 4%;
+        margin-top: 3%;
+  
     }
 }
 
