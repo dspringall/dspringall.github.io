@@ -76,7 +76,7 @@ ul li {
     border: 1px solid black;
 }
 
-#section, #section1, #section2, #section4 {
+#section, #section1, #section2 {
     padding: 5% 10%;
 }
 
@@ -90,9 +90,15 @@ ul li {
 }
 
 #section4 {
-    background-color:#022907;
-    color: white;
+    padding: 5% 7%;
 }
+
+.attribution {
+    text-align: right;
+    color:gray;
+    font-size: 0.9em;
+}
+
 
 .block {
     width: 100px;
@@ -101,7 +107,6 @@ ul li {
 }
 
 .bordersec {
-    /* border: 2px solid white; */
     padding: 25px;
     margin: 2% 0;
     color: navy;
@@ -161,6 +166,10 @@ ul li {
     background: #ffffff;
     box-shadow:  5px 5px 10px #999999, 
                  -5px -5px 10px #ffffff;
+}
+
+.fa-user-tie {
+    font-size: 60px;
 }
 
 /* PHOTO BORDER */
@@ -244,6 +253,16 @@ ul li {
     font-size: 1em;
 }
 
+.testimonial {
+    font-size: 0.9em;
+    /* border-radius: 50px; */
+    background: #ffffff;
+    box-shadow:  10px 10px 20px #bfbfbf, 
+    10px 10px 20px #bfbfbf;
+    padding: 4% 5%;
+}
+
+
 .top {
     background-color: rgba(250, 250, 250, 0.8);
     display: none;
@@ -284,7 +303,11 @@ ul li {
   }
 
 
-
+  @media screen and (max-width: 995px) {
+    .fa-user-tie {
+        display: none;
+    }
+}
 
 
 @media screen and (max-width: 650px) {
@@ -294,6 +317,30 @@ ul li {
     .connect {
         font-size: 1em;
     }
+    .font {
+        font-size: 0.8em;
+    }
+    .cv {
+        font-size: 0.7em;
+    }
+    .testimonial {
+        font-size: 0.7em;
+        font-weight: bold;
+    }
+    .bordersec {
+        padding: 12px;
+    }
+    .image {
+        width: 75%;
+        margin: auto;
+    }
+    h6 {
+        font-size: 1em;
+    }
+    .langsused {
+        font-size: 0.8em;
+    }
+
 }
     
 @media screen and (max-width: 480px) {
