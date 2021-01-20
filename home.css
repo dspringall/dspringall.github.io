@@ -93,7 +93,6 @@ ul li {
     padding: 5% 5%;
     background-color: #e6f2e9;
     text-align: center;
-
 }
 
 #section5 {
@@ -221,6 +220,10 @@ ul li {
 
 .lang {
     margin: 20px auto;
+}
+
+.langsused {
+    text-align: center;
 }
 
 .more {
