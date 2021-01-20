@@ -35,9 +35,9 @@ h5 {
 
 h6 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-bottom: 5%;
-    letter-spacing: 1mm;
+    letter-spacing: 0.2mm;
 }
 
 hr {
@@ -89,6 +89,13 @@ ul li {
     text-align: center;
 }
 
+#projects {
+    padding: 5% 5%;
+    background-color: #e6f2e9;
+    text-align: center;
+
+}
+
 #section5 {
     padding: 5% 10%;
 }
@@ -107,7 +114,7 @@ ul li {
 }
 
 .bordersec {
-    padding: 25px;
+    padding: 1% 2% 1% 2%;
     margin: 2% 0;
     color: navy;
     border-radius: 15px;
@@ -191,6 +198,10 @@ ul li {
 .icon {
     font-size: 100px;
     margin: 5px;
+}
+
+.image {
+    border: 1px solid lightgray;
 }
 
 .jumbotron {
